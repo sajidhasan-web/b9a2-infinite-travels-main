@@ -1,0 +1,45 @@
+
+
+
+/* small device / mobile */
+
+@media screen and (max-width: 600px){
+    .banner-items h1 {
+        font-size: 2rem;
+    }
+    .banner-items {
+        padding: 26px;
+    }
+    .banner-items p{
+        margin-top: 12px;
+    }
+    .banner-input-button {
+        margin-top: 25px;
+        height: 288px;
+    }
+    .banner{
+        padding: 5px;
+    }
+    .banner-button {
+        margin-bottom: 16px;
+    }
+
+    /* popular tour */
+    .popular-tour{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .popular-tour-content ul{
+        padding: 20px;
+    }
+    .popular-tour-image img{
+        margin-top: 20px;
+    }
+    /* .popular-tou-content{
+       padding: 5px;
+    }
+    .popular-tour-image{
+       padding: 5px;
+    } */
+
+}
