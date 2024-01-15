@@ -140,7 +140,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     /* 162.5% */
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .popular-tour-content ul>li{
     color: rgba(19, 19, 24, 0.70);
@@ -152,10 +152,57 @@ body {
 }
 .popular-tour-content ul{
     margin-bottom: 24px;
+    padding: 20px;
     
     /* width: 44%; */
     
 }
+
+/* destination section */
+.destination{
+    margin-top: 100px;
+}
+
+.destination h2, p{
+    
+    margin-bottom: 24px;
+}
+.destination h2{
+    margin-bottom: 25px;
+    text-align: center; 
+    color: #131318;
+    font-size: 2.5rem;
+
+}
+.destination p{
+    margin-bottom: 50px;
+    text-align: center; 
+}
+
+.image-container{
+    width: 100%;
+}
+
+
+
+.maldive-indonesia{
+    display: flex;
+   gap: 10px;
+   margin-bottom: 10px;
+   
+}
+.sri-north-kasmir{
+display: flex;
+gap: 10px;
+margin-bottom: 10px;
+}
+.bangladesh-bandarban{
+display: flex;
+gap: 10px;
+
+}
+
+
 
 
 /*----------------- main styles end here------------------------ */

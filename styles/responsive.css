@@ -42,4 +42,74 @@
        padding: 5px;
     } */
 
-}
+
+    /* sponsor section */
+
+    .maldive-indonesia{
+        flex-direction: column;
+        
+    }
+   .sri-north-kasmir{
+    flex-direction: column;
+    
+   }
+   .bangladesh-bandarban{
+    flex-direction: column;
+   
+   }
+   .image-container{
+    margin-left: 10px;
+   }
+   .image-container img {
+    width: 335px;
+    height: 176px;
+    padding: 10px;
+   }
+
+    /* .grid{
+        width: 100%;
+        
+    }
+    .item1{
+        grid-column: 1 /span 12;
+       
+        
+     
+    }      
+    
+    .item2{
+        grid-column: 1 /span 12;
+
+        
+    }
+    .item3{
+        grid-column: 1 /span 12;
+
+      
+    }
+    .item4{
+        grid-column: 1 / span 12;
+
+        
+    }
+    .item5{
+        grid-column: 1 / span 12;
+
+      
+    }
+    .item6{
+        grid-column: 1 / span 12;
+
+        
+    }
+    .item7{
+        grid-column: 1 /span 12;
+
+      
+    }
+    
+
+      
+    }     */
+      
+
