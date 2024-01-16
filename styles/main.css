@@ -88,6 +88,7 @@ body {
     background: rgba(255, 255, 255, 0.30);
     padding: 1rem;
     margin-top: 48px;
+    cursor: pointer;
 }
 
 .banner-button {
@@ -102,6 +103,7 @@ body {
     margin-right: 1.5rem;
     outline: none;
     height: 52px;
+    cursor: pointer;
 
 }
 
@@ -301,7 +303,108 @@ p {
     font-weight: 400;
 }
 
+/* news-letter section */
+.news-inputs input {
+    padding: 15px;
+}
 
+.news-letter {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    min-height: 422px;
+}
+
+.news-image {
+    border-radius: 16px;
+    width: 70%;
+    background: url('../Images/Rectangle\ 88.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.news-inputs {
+    padding: 1.5rem;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.news-inputs input {
+
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 1.5rem;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+
+
+}
+
+.news-inputs button {
+
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: #FF5400;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Mulish;
+    font-size: 1.1rem;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.news-inputs p {
+    text-align: start;
+}
+
+.news-inputs h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.news-letter {
+    margin-top: 100px;
+}
+
+.news-image .discount {
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    position: relative;
+    top: 255px;
+    left: 312px;
+}
+
+.news-image .discount p {
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.news-image .discount h3 {
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
 
 /*----------------- main styles end here------------------------ */
 

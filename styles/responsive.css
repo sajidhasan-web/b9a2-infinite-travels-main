@@ -88,6 +88,25 @@
         left: 0;
     }
 
+
+    .news-letter{
+        flex-direction: column;
+    }
+    .news-image{
+        width: 100%;
+    height: 235px
+    }
+    .news-image .discount{
+    width: 257px;
+    height: 92px;
+    position: relative;
+    top: 108px;
+    left: 115px;
+    }
+    
+
+}
+
     /* .grid{
         width: 100%;
         
