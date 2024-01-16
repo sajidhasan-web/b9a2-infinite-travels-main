@@ -468,13 +468,15 @@ footer {
 }
 
 .social-icons a {
+    color: #131318;
     font-size: 1.7rem;
     margin-left: 10px;
     margin-bottom: 50px;
+    text-decoration: none;
 }
 
 .social-icons {
-
+    color: #131318;
     margin-bottom: 50px;
 }
 
