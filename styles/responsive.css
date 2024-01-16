@@ -1,40 +1,45 @@
-
-
-
 /* small device / mobile */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .banner-items h1 {
         font-size: 2rem;
     }
+
     .banner-items {
         padding: 26px;
     }
-    .banner-items p{
+
+    .banner-items p {
         margin-top: 12px;
     }
+
     .banner-input-button {
         margin-top: 25px;
         height: 288px;
     }
-    .banner{
+
+    .banner {
         padding: 5px;
     }
+
     .banner-button {
         margin-bottom: 16px;
     }
 
     /* popular tour */
-    .popular-tour{
+    .popular-tour {
         flex-direction: column;
         padding: 10px;
     }
-    .popular-tour-content ul{
+
+    .popular-tour-content ul {
         padding: 20px;
     }
-    .popular-tour-image img{
+
+    .popular-tour-image img {
         margin-top: 20px;
     }
+
     /* .popular-tou-content{
        padding: 5px;
     }
@@ -45,26 +50,43 @@
 
     /* sponsor section */
 
-    .maldive-indonesia{
+    .maldive-indonesia {
         flex-direction: column;
-        
+
     }
-   .sri-north-kasmir{
-    flex-direction: column;
-    
-   }
-   .bangladesh-bandarban{
-    flex-direction: column;
-   
-   }
-   .image-container{
-    margin-left: 10px;
-   }
-   .image-container img {
-    width: 335px;
-    height: 176px;
-    padding: 10px;
-   }
+
+    .sri-north-kasmir {
+        flex-direction: column;
+
+    }
+
+    .bangladesh-bandarban {
+        flex-direction: column;
+
+    }
+
+    .image-container {
+        margin-left: 10px;
+    }
+
+    .image-container img {
+        width: 300px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .choose-us-cards {
+        flex-direction: column;
+    }
+
+    .choose-us .card {
+        width: 335px;
+        height: 289px;
+        padding: 5px;
+    }
+    .third {
+        left: 0;
+    }
 
     /* .grid{
         width: 100%;
@@ -111,5 +133,3 @@
 
       
     }     */
-      
-

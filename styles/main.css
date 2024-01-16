@@ -25,7 +25,7 @@ body {
     line-height: 26px;
 } */
 
-.btn-primary{
+.btn-primary {
     text-align: start;
     padding: 10px 16px;
     font-size: 1rem;
@@ -133,7 +133,7 @@ body {
     margin-bottom: 24px;
 }
 
-.popular-tour-content p{
+.popular-tour-content p {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 1rem;
@@ -142,7 +142,8 @@ body {
     /* 162.5% */
     margin-bottom: 20px;
 }
-.popular-tour-content ul>li{
+
+.popular-tour-content ul>li {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 1rem;
@@ -150,58 +151,155 @@ body {
     line-height: 26px;
     /* 162.5% */
 }
-.popular-tour-content ul{
+
+.popular-tour-content ul {
     margin-bottom: 24px;
     padding: 20px;
-    
+
     /* width: 44%; */
-    
+
 }
 
 /* destination section */
-.destination{
+.destination {
     margin-top: 100px;
 }
 
-.destination h2, p{
-    
+.destination h2,
+p {
+
     margin-bottom: 24px;
 }
-.destination h2{
+
+.destination h2 {
     margin-bottom: 25px;
-    text-align: center; 
+    text-align: center;
     color: #131318;
     font-size: 2.5rem;
 
 }
-.destination p{
+
+.destination p {
     margin-bottom: 50px;
-    text-align: center; 
+    text-align: center;
 }
 
-.image-container{
+.image-container {
     width: 100%;
 }
 
 
 
-.maldive-indonesia{
+.maldive-indonesia {
     display: flex;
-   gap: 10px;
-   margin-bottom: 10px;
-   
-}
-.sri-north-kasmir{
-display: flex;
-gap: 10px;
-margin-bottom: 10px;
-}
-.bangladesh-bandarban{
-display: flex;
-gap: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
 
 }
 
+.sri-north-kasmir {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.bangladesh-bandarban {
+    display: flex;
+    gap: 10px;
+
+}
+
+/* choose us section */
+.choose-us {
+    margin-top: 100px;
+}
+
+.choose-us h2,
+p {
+    text-align: center;
+}
+
+.choose-us h2 {
+    margin-bottom: 1rem;
+}
+
+.choose-us p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+.choose-us-cards {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.choose-us-cards img {
+    margin-bottom: 32px;
+}
+
+.choose-us-cards h4 {
+    margin-bottom: 16px;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.choose-us-cards p {
+    margin-bottom: 1rem;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.choose-us-cards .first {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.choose-us-cards .second {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.third {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 49%;
+    padding: 32px;
+    margin-top: 1.5rem;
+    position: relative;
+    left: 269px;
+}
+
+.third img {
+    margin-bottom: 32px;
+}
+
+.third h4 {
+    margin-bottom: 16px;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.third p {
+    margin-bottom: 1rem;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 
