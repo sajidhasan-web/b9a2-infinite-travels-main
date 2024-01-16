@@ -135,7 +135,8 @@ body {
     margin-bottom: 24px;
 }
 
-.popular-tour-content p {
+.popular-tour-description {
+    text-align: start;
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 1rem;
@@ -168,7 +169,7 @@ body {
 }
 
 .destination h2,
-p {
+.destination-description {
 
     margin-bottom: 24px;
 }
@@ -181,7 +182,7 @@ p {
 
 }
 
-.destination p {
+.destination-description {
     margin-bottom: 50px;
     text-align: center;
 }
@@ -225,11 +226,10 @@ p {
     margin-bottom: 1rem;
 }
 
-.choose-us p {
+.choose-us-description {
     text-align: center;
     margin-bottom: 50px;
     color: rgba(19, 19, 24, 0.70);
-    text-align: center;
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
@@ -361,8 +361,9 @@ p {
 
 }
 
-.news-inputs p {
+.news-letter-description {
     text-align: start;
+    margin-bottom: 20px;
 }
 
 .news-inputs h4 {
@@ -388,7 +389,7 @@ p {
     left: 312px;
 }
 
-.news-image .discount p {
+.discount-description {
     text-align: center;
     color: #FFF;
     font-family: Mulish;
@@ -405,6 +406,40 @@ p {
     font-weight: 800;
 
 }
+
+/* footer section */
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.foot-content{
+    margin-top: 50px;
+    border: 2px solid rgba(19, 19, 24, 0);
+}
+.foot-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.foot-description{
+    margin-bottom: 32px;
+}
+.social-icons a{
+font-size: 1.7rem;
+margin-left: 10px;
+margin-bottom: 50px;
+}
+.social-icons {
+
+margin-bottom: 50px;
+}
+.copyrigths{
+    margin-top: 50px;
+}
+
 
 /*----------------- main styles end here------------------------ */
 
