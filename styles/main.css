@@ -45,13 +45,49 @@ body {
 
 /*----------------- header styles start here------------------------ */
 /* nav here---------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
 
+.bar{
+    display: flex;
+    justify-content: end;
+    visibility: hidden;
+    font-size: 1.5rem;
+    
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.menu ul li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-family: Mulish;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
 
 /* banner*/
 .banner .banner-main-container {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group13\ .png');
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -409,34 +445,40 @@ p {
 
 /* footer section */
 
-footer{
+footer {
     width: 100%;
     height: auto;
     margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
 }
-.foot-content{
+
+.foot-content {
     margin-top: 50px;
     border: 2px solid rgba(19, 19, 24, 0);
 }
-.foot-title{
+
+.foot-title {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 20px;
 }
-.foot-description{
+
+.foot-description {
     margin-bottom: 32px;
 }
-.social-icons a{
-font-size: 1.7rem;
-margin-left: 10px;
-margin-bottom: 50px;
+
+.social-icons a {
+    font-size: 1.7rem;
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
+
 .social-icons {
 
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-.copyrigths{
+
+.copyrigths {
     margin-top: 50px;
 }
 
