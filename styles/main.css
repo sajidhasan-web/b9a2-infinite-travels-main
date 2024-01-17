@@ -153,6 +153,97 @@ body {
 
 /*----------------- main styles start here------------------------ */
 
+.grid-gallery {
+    display: grid;
+    gap: 24px;
+    grid-template-rows: 300px 286px 300px;
+    grid-template-areas:
+        'maldives maldives maldives maldives maldives maldives indonesia indonesia indonesia indonesia indonesia indonesia'
+        'srilanka srilanka srilanka srilanka america america america america america kashmir kashmir kashmir'
+        'bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban bandarban bandarban bandarban bandarban bandarban';
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.item-title {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 800;
+
+}
+
+.items1 {
+    grid-area: maldives;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items2 {
+    grid-area: indonesia;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items3 {
+    grid-area: srilanka;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items4 {
+    grid-area: america;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items5 {
+    grid-area: kashmir;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items6 {
+    grid-area: bangladesh;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items7 {
+    grid-area: bandarban;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 576px){
+    .container {
+         padding: 0 30px;
+    }
+    
+    .grid-gallery {
+
+        grid-template-rows: repeat(7 , 176px);
+        grid-template-areas:
+            'maldives maldives maldives maldives maldives maldives maldives maldives maldives maldives maldives maldives' 
+            'indonesia indonesia indonesia indonesia indonesia indonesia indonesia indonesia indonesia indonesia indonesia indonesia'
+            'srilanka srilanka srilanka srilanka srilanka srilanka srilanka srilanka srilanka srilanka srilanka srilanka' 
+            'america america america america america america america america america america america america' 
+            'kashmir kashmir kashmir kashmir kashmir kashmir kashmir kashmir kashmir kashmir kashmir kashmir'
+            'bangladesh bangladesh bangladesh bangladesh bangladesh bangladesh bangladesh bangladesh bangladesh bangladesh  bangladesh bangladesh' 
+           'bandarban bandarban bandarban bandarban bandarban bandarban bandarban bandarban bandarban bandarban bandarban bandarban';
+    }
+}
 /* popular section */
 
 .popular-tour {
